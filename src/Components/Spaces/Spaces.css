@@ -1,0 +1,55 @@
+.SpacesComponent {
+  padding: 1rem 0.2rem;
+}
+.spacesDymanicCol {
+  background-color: #000000;
+  z-index: 1;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0px 0px 4px 3px rgb(199, 198, 198);
+}
+.SpacesComponent .spacesDymanicCol .SpacesCheckbox {
+  width: 7%;
+  cursor: pointer;
+}
+.SpacesComponent .spacesDymanicCol .SpaceWord {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  border-radius: 15px;
+  /* padding: 0; */
+}
+.SpacesComponent .spacesDymanicCol .SpaceWord:hover {
+  background-color: #202020;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.SpacesComponent .spacesDymanicCol .SpacesCupSvg {
+  width: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.SpacesComponent .spacesDymanicCol .SpacesLowerHead {
+  width: 100%;
+  background-color: #000000;
+  align-self: center;
+  margin: 0 !important;
+  /* padding: 0.3rem 0rem; */
+  border-radius: 15px;
+}
+.SpacesComponent .spacesDymanicCol .SpacesLowerHead .SpacesLowerHeadItem {
+  width: 20%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem 0rem;
+}
+.SpacesComponent .spacesDymanicCol .SpacesLowerHead .SpacesLowerHeadItem:hover {
+  background-color: #202020;
+  cursor: pointer;
+  transition: 0.3s;
+}

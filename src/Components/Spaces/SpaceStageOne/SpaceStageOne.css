@@ -1,0 +1,8 @@
+.SpaceStageOne {
+  border-radius: 15px;
+}
+.SpaceStageOneGridLineTwo,
+.SpaceStageOneGridLineThree {
+  background-color: #e0e0e0;
+  text-align: center;
+}
